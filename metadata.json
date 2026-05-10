@@ -1,0 +1,5 @@
+{
+  "name": "Indiversa Kit",
+  "description": "A fully client-side suite of privacy and security tools including a password generator, Base64 converter, and image resizer.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@layer utilities {
+    .checkered-bg {
+        background-color: #18181b;
+        background-image: linear-gradient(45deg, #27272a 25%, transparent 25%, transparent 75%, #27272a 75%, #27272a), 
+                          linear-gradient(45deg, #27272a 25%, transparent 25%, transparent 75%, #27272a 75%, #27272a);
+        background-size: 20px 20px;
+        background-position: 0 0, 10px 10px;
+    }
+    
+    .custom-scrollbar::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: #3f3f46;
+        border-radius: 4px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        background: #52525b;
+    }
+}
